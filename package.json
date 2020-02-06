@@ -1,0 +1,32 @@
+{
+  "name": "list-taker",
+  "version": "1.0.0",
+  "description": "todo app with additional functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/**/*.js --fix",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alwynblake/list-taker.git"
+  },
+  "author": "Alistair Blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alwynblake/list-taker/issues"
+  },
+  "homepage": "https://github.com/Alwynblake/list-taker#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.1",
+    "superagent": "^5.1.0"
+  }
+}
