@@ -2,7 +2,7 @@
   "name": "list-taker",
   "version": "1.0.0",
   "description": "todo app with additional functionality",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

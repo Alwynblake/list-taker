@@ -1,4 +1,5 @@
 import React from 'react';
+import CreateForm from "../CreateForm/CreateForm";
 
 class Container extends React.Component {
   constructor(props) {
@@ -16,6 +17,9 @@ addNote = (topic, note) => {
     }));
   };
 
+handleTopic = (event) => this.setState({topic: event.target.value});
+handleNote = (event) => this.setState({note: event.target.value});
+
 handleSubmit = async (event) => {
   event.preventDefault();
   await this.addNote(this.state.topic,this.state.note);
@@ -23,11 +27,13 @@ handleSubmit = async (event) => {
 
    render() {
     return (
-      <section>
-
+      <div>
+        <CreateForm
+          handleTopic={this.handleTopic}
+          handleNote={this.handleNote}
           handleSubmit={this.handleSubmit}
-
-      </section>
+          />
+      </div>
 
     );
   }
