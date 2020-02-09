@@ -10,7 +10,7 @@ simple task-management tool.
 
 #### About list-taker
 This is a simple app using ReactJS. 
-It returns a hierarchy of views to display via the render() method.
+It returns a hierarchy of views in JSX to display via the render() method.
 Essentially capturing data in responds to user inputs.
 
 #### Feature Tasks
@@ -23,7 +23,7 @@ Index
     Container
 ```
 ###### App Component
-* The App component 
+* The App component is the entry point.
 
 ###### Header Component
 
