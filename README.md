@@ -1,5 +1,5 @@
 # list-taker
-
+[![Build Status](https://travis-ci.com/Alwynblake/list-taker.svg?branch=master)](https://travis-ci.com/Alwynblake/list-taker)
 ### Author:  Alistair Blake 
 #### Link and Resources
 *[Repo] (https://github.com/Alwynblake/list-taker)
