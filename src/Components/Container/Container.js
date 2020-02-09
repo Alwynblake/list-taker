@@ -44,7 +44,7 @@ class Container extends React.Component {
                 />
                 <button onClick={(event) =>
                     this.HandleAddLine()}>
-                  Submit ✏️
+                  <span role ="img" aria-label="Add item">  Submit ✏️  </span>
                 </button>
 
             <br/>
@@ -54,7 +54,7 @@ class Container extends React.Component {
                     <li key={line.id}>
                       {line.value}
                       <button onClick={()=> this.deleteLine(line.id)}>
-                        Delete 🗑
+                        <span role ="img" aria-label="Add item">  Delete 🗑  </span>
                       </button>
                     </li>
                 )
