@@ -14,6 +14,7 @@ describe('Testing our Container component', () => {
   it ('Container changes state on Click', ()=> {
     let app = mount(<Container />);
     let button = app.find('button');
+    expect(button).toBeDefined();
     button.simulate('click');
     expect(app.state()).toHaveProperty('note','');
   })

@@ -32,16 +32,22 @@ Index
 ###### Container Component
 * The Container component manages the entire **application state**
 * The state contains a list array
-* It has a bound `list.push(note)` method that adds a note to `state.list`
+* It has a `list.push(note)` method that adds a note to `state.list`
   * every note that gets added has the following data
     * `id`: should always contain a result of `Math.random`
     * `note`: user provided content
     
+#### Tests
+    * To run tests, please use the `npm run test` command.
+
 #### Available Scripts
 In order to view frontend_tooling within the browser,
 in the terminal type: 
 ##### `npm install`
 ##### `npm start`
+
+#### Tests
+    * To run tests, please use the `npm run test` command.
 
 #### UML
 ![](./src/assets/uml.png)
