@@ -13,7 +13,7 @@ class Clock extends React.Component {
       time:new Date()
     })
   }
-  componentWillMount()
+  UNSAFE_componentWillMount()
   {
     setInterval(()=>this.currentTime(),1000)
   }
