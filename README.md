@@ -8,7 +8,7 @@
 * [DNS] (https://www.listtaker.site/) 
 
 #### User Stories
-1.	As a developer of this app, I want ot allow to end-user to utilize a 
+1.	As a developer of this app, I want ot allow the end-user to utilize a 
 simple task-management tool.
 
 #### About list-taker
@@ -29,8 +29,10 @@ Index
 * The App component is the entry point via the Index.html
 
 ###### Header Component
+* The Header component renders the `ToDo` header 
 
 ###### Clock Component
+*  The Clock component renders the current time
 
 ###### Container Component
 * The Container component manages the entire **application state**
