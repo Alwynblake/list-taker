@@ -2,13 +2,13 @@
 [![Build Status](https://travis-ci.com/Alwynblake/list-taker.svg?branch=master)](https://travis-ci.com/Alwynblake/list-taker)
 ### Author:  Alistair Blake 
 #### Links and Resources
-* [Repo] (https://github.com/Alwynblake/list-taker)
-* [AWS S3] (http://list-taker.s3-website-us-west-2.amazonaws.com)
-* [AWS cloudfront] (https://d2wo6znurue1q4.cloudfront.net/)
-* [DNS] (https://www.listtaker.site/) 
+* ![Github](https://github.com/Alwynblake/list-taker)
+* ![AWS S3](http://list-taker.s3-website-us-west-2.amazonaws.com)
+* ![AWS cloudfront](https://d2wo6znurue1q4.cloudfront.net/)
+* ![DNS](https://www.listtaker.site/) 
 
-#### User Stories
-1.	As a developer of this app, I want ot allow the end-user to utilize a 
+#### User Stories 
+1.	As a developer of this app I want to allow the end-user to utilize a 
 simple task-management tool.
 
 #### About list-taker
@@ -56,3 +56,5 @@ in the terminal type:
 
 #### UML
 ![](./src/assets/uml.png)
+
+
