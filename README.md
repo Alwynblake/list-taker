@@ -1,8 +1,11 @@
 # list-taker
 [![Build Status](https://travis-ci.com/Alwynblake/list-taker.svg?branch=master)](https://travis-ci.com/Alwynblake/list-taker)
 ### Author:  Alistair Blake 
-#### Link and Resources
-*[Repo] (https://github.com/Alwynblake/list-taker)
+#### Links and Resources
+* [Repo] (https://github.com/Alwynblake/list-taker)
+* [AWS S3] (http://list-taker.s3-website-us-west-2.amazonaws.com)
+* [AWS cloudfront] (https://d2wo6znurue1q4.cloudfront.net/)
+* [DNS] (https://www.listtaker.site/) 
 
 #### User Stories
 1.	As a developer of this app, I want ot allow to end-user to utilize a 
@@ -23,7 +26,7 @@ Index
     Container
 ```
 ###### App Component
-* The App component is the entry point.
+* The App component is the entry point via the Index.html
 
 ###### Header Component
 
