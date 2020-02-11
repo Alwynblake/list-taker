@@ -8,7 +8,7 @@
 * [DNS] (https://www.listtaker.site/) 
 
 #### User Stories
-1.	As a developer of this app, I want ot allow the end-user to utilize a 
+1.	As a developer of this app I want to allow the end-user to utilize a 
 simple task-management tool.
 
 #### About list-taker
